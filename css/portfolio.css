@@ -1,0 +1,340 @@
+.body{
+    background-image: linear-gradient(#222629, #222629);
+    font-family: roboto;
+    letter-spacing: .1em;
+    opacity: .9;
+}
+
+
+/*Header, Navs & Logo */
+#logo{
+    stroke: white;
+    width: 300px;
+    height: 150px;
+}
+
+#rightside a{
+    position: fixed;
+    top: 35em;
+    right: -6em;
+    transform: rotate(90deg);
+    float: right;
+    font-size: .8em;
+    color: lightblue;
+    font-family: monospace;
+}
+
+#rightside a:hover{
+    text-decoration: none;
+}
+
+.shownav{
+    display: block;
+}
+.hidenav{
+    display: none;
+}
+
+#scrollnav{
+    height: 100vh;
+}
+
+#sidenav{
+    position: fixed;
+}
+
+#social{
+    position: absolute;
+    bottom: -33em;
+}
+
+/* heading styles */
+h1{
+    color: white;
+    background-clip: text;
+    fill: transparent;
+    font-size: 3em;
+}
+
+#name{
+    font-size: 1.25em;
+    font-weight:bolder; 
+}
+
+#subhead{
+    opacity: .75;
+}
+
+u{
+    color: lightblue;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+
+/* Story CSS */
+
+#story{
+    position: relative;
+    opacity: 1;
+    width: 70%;
+}
+
+
+#hero-background{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/Images/Story/hero-background.gif");
+    margin: auto;
+    margin-top: 7em;
+}
+
+#mains{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    background-image: url("/Images/Story/town.jpeg");
+    background-position: center;
+    animation: backgrounds 20s linear;
+    animation-play-state: running;
+}
+
+#stages{
+    margin-left: 2em;
+    left: 11em;
+    top: 6em;
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    background-image: url("/Images/Story/boy.gif");
+    background-position: center;
+    animation: journey 10s linear;
+    animation-play-state: running;
+}
+
+
+#play{
+    top: 50%;
+    left: 50%;
+    margin-top: 10em;
+    position: absolute;
+    font-size: 1em;
+    opacity: 1;
+}
+
+#backgrounds{
+    position:  relative;
+    margin: 0 8em;
+    background-image: linear-gradient(#f2f2f2,#f2f2f2);
+}
+
+@keyframes backgrounds {
+    0%{
+        background-image: url("/Images/Story/town.jpeg");
+    }
+
+    30%{
+        background-image: url("/Images/Story/city.gif");
+    }
+
+    70%{
+        background-image: url("/Images/Story/manback.gif");
+    }
+}
+
+@keyframes journey {
+    0%{
+        background-image: url("/Images/Story/boy.gif");
+    }
+
+    30%{
+        height: 150px;
+        background-image: url("/Images/Story/teen.gif");
+        margin-top: 1em;
+    }
+    70%{
+        height: 200px;
+        background-image:url("/Images/Story/man.gif");
+        margin-top: 2emm;
+    }
+}
+
+/*Story CSS End */
+
+/*Experience CSS start */
+#experience{
+    margin: auto;
+    margin-top: 20em;
+    color: white;
+    width: 80%;
+}
+
+#jobdesc,#other{
+    font-size: .85em;
+}
+
+
+.duration{
+    opacity: .5;
+}
+
+li{
+    list-style: none;
+    font-family: roboto;
+}
+li::before{
+    position: relative;
+    left: -2.5em;
+    content: '';
+    display: inline-block;
+    background-image: url("/Images/list-style-image.png");
+    width: 10px;
+    height: 13px;
+    text-align: left;
+}
+
+#lilly ul{
+    list-style-position: outside;
+}
+
+
+.list-group-item{
+    font-size: .8em;
+    letter-spacing: 1px;
+}
+
+.list-group-item:link{
+    border: none;
+}
+
+.list-group-item:link:active{
+    border: none;
+    color: lightblue;
+}
+
+ .list-group-item:link:visited{
+    border: none;
+}
+
+
+.list-group-item:link:hover, .list-group-item:active:hover, .list-group-item:visited:hover{
+    color: lightblue;
+}
+
+#one , #two , #three, #four, #humber , #drdo{
+    opacity: .85
+}
+
+/* Experience CSS end */
+
+/* Projects CSS start */
+
+#projects{
+    color: lightslategray;
+}
+
+.projimg{
+    margin: auto;
+    height: 300px;  
+    background-blend-mode:color;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2em;
+}
+
+#wesuppimg{
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/wesupport.png");
+}
+
+#hpimg{
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/100percent.png");
+    margin-left: -5em;
+    z-index: -1 ;
+}
+#qrimg{
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/quickread.png");
+    margin-left: -5em;
+    background-size: contain;
+    z-index: -1;
+}
+
+#tcimg{
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/takecare.png");
+    background-size: contain;
+    height: 300px;
+}
+
+.projright{
+    margin: auto;
+    align-items: center;
+    overflow: hidden;
+    margin-left: -5em;
+    background-color: #222629;
+    padding: 1em;
+    background-color: #123455;
+    font-size: .75em;
+    color: ghostwhite;
+}
+
+.projleft{
+    overflow: visible;
+    margin: auto;
+    background-color: #123455;
+    padding: 1em;
+    font-size: .75em;
+    color: ghostwhite;
+}
+/* Projects CSS ends */
+
+/* Other projects CSS Start */
+
+.otherworks{
+    font-size: .75em;
+    height: 500px;
+    overflow: hidden;
+}
+
+.visible{
+    font-size: .75em;
+    overflow:visible;
+}
+
+.others{
+    border-radius: 1em;
+}
+
+#otherworks h3{
+    font-family: roboto;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+#otherworks p{
+    font-size: .75em;
+    opacity: .8;
+}
+
+/* Other Projects CSS end */
+
+/* contact CSS start */
+footer{
+    opacity: 1;    
+}
+
+/* footer CSS End */
+
+/* theme change css */
+.switch{
+    background-image: linear-gradient(#767676,#767676);
+    font-family: roboto;
+    letter-spacing: .1em;
+    color: black !important;
+    opacity: 1;
+}
+
+/* Theme change CSS end */
+

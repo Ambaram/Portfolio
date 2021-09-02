@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="ambaram portfolio">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Ambaram</title>
+</head>
+
+<body class="container-fluid m-0 body" id="body">
+    <header>
+        <div class="navbar p-0">
+            <nav id="fixnav" class="container-fluid">
+                <a class="navbar-brand" href="/html/Ambaram.html">
+                    <svg height="65" width="90" id="logo">
+                        <polyline points="40,20 20,40 40,60" style="fill: none; stroke:white;stroke-width:7px">
+                        </polyline>
+                        <line x1="60" y1="30" x2="40" y2="50" style="stroke:red;stroke-width:7px"></line>
+                        <polyline points="60,20 80,40 60,60" style="fill: none;stroke:red; stroke-width:7px">
+                        </polyline>
+                    </svg>
+                </a>
+                <div class="navbar-nav d-flex flex-row" id="links">
+                    <a class="nav-item nav-link active text-light mx-2" id="navbar-link" href="#intro">About<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active text-light mx-2" id="navbar-link" href="#story">Story</a>
+                    <a class="nav-item nav-link text-light mx-2" id="navbar-link" href="#experience">Experience</a>
+                    <a class="nav-item nav-link text-light mx-2" id="navbar-link" href="#projects">Works</a>
+                    <a class="nav-item nav-link text-light mx-2" id="navbar-link" href="#contact">Contact</a>
+                    <a class="nav-item nav-link text-light mx-2" id="navbar-link" href="../Docs/Ambaram_Resume.pdf"
+                        download>Resume</a>
+                    <div class="text-center">
+                        <div class="btn btn-info bg-transparent p-2 border border-info text-monospace text-info "
+                            id="lightmode">Switch Themes
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="sidenav" class="container m-0 w-10">
+                <div class="d-flex flex-column" id="social">
+                <a class="p-2 col-sm-1 float-left" href="https://www.facebook.com/ambaram.srivastava"><img src="/Images/fb.png" class="w-75 rounded-circle"></a>
+                <a class="p-2 col-sm-1" href="https://github.com/Ambaram"><img src="/Images/github.png" class="w-75 rounded-circle"></a>
+                <a class="p-2 col-sm-1" href="#"><img src="/Images/insta.webp" class="w-75 rounded"></a>
+                <a class="p-2 col-sm-1" href="https://www.linkedin.com/in/ambaram-srivastava-8a5200103/"><img src="/Images/linkedin copy.png" class="w-75 rounded-circle"></a>
+            </div>
+        </div>
+        </div>
+        <p id="rightside" class="text-white-50"><a href="mailto:ambaramsrivastava@gmail.com">Emailto : ambaramsrivastava@gmail.com</hr></a></p>
+    </header>
+    <main id="main">
+        <div class="m-4 p-4" id="intro">
+            <div class="row p-4 m-4">
+                <div id="bio" class="col-sm-8">
+                    <h1 id="heading">
+                        <div class="h6 text-monospace">Hello, my name is</div>
+                        <div id="name" class="text-larger">Ambaram</div>
+                    </h1>
+                    <h1 id="subhead">I solve practical problems.</h1>
+                    <div class="text-white-50" id="intro">
+                        <p>
+                            Currently I'm a student at <u>Humber College</u>, enrolled in the Web Development Program. I
+                            am a <u>software engineer</u> by profession. I create <u>data-driven web applications</u>
+                            with seamless experience using modern methods.
+                            Methods that integrate several computer science domains including Machine Learning, Database
+                            Design. I'm focused upon
+                            <u>solving web security issues</u> and challanges in <u>making websites accessible</u> and
+                            human-friendly.
+                        </p>
+                    </div>
+                </div>
+                <div id="profilepic" class="col-sm-4 bg-gradient-success">
+                    <img src="/Images/profile.jpeg" class="mx-auto d-block rounded-pill p-0" id="pic">
+                </div>
+            </div>
+        </div>
+        <div class="container p-4 mx-auto text-center" id="story">
+            <h2 class="h6 text-monospace"><u>Know more about me</u></h2>
+            <h2 class="text-light">My Story in a Minute</h2>
+            <div class="container-fluid" id="backgrounds">
+                <div class="container-fluid" id="hero-background"></div>
+                <div class="container-fluid" id="mains"></div>
+                <div class="container-fluid" id="stages">
+                </div>
+            </div>
+            <div id="playBtn">
+                <i class="fa fa-play-circle btn rounded-circle bg-dark text-light mx-auto" aria-hidden="true"
+                    id="play"></i>
+            </div>
+        </div>
+        <div class="container-fluid" id="experience">
+            <h2 class="h6 text-center m-4 p-4"><u>Industry Relevant Experience</u></h2>
+            <h2 class="h3 ml-4 mb-0">Software Engineer <u>@ TCS</u></h2>
+            <p class="text-monospace text-smaller duration ml-4 mt-0">Feb 2017- Present</p>
+            <div class="row container" id="tcs">
+                <div class="col-sm-4">
+                    <div class="list-group text-monospace" id="list-tab" role="tablist">
+                        <a class="row d-flex flex-row list-group-item list-group-item-action bg-transparent active"
+                            id="list-home-list" data-toggle="list" href="#one" role="tab"
+                            aria-controls="clients">Clients</a>
+                        <a class="row d-flex felx-row list-group-item list-group-item-action my-auto bg-transparent"
+                            id="list-profile-list" data-toggle="list" href="#two" role="tab" aria-controls="lilly">
+                            <p class="mr-2">01.</p>
+                            <p>Eli Lilly & Company</p>
+                        </a>
+                        <a class="row d-flex flex-row list-group-item list-group-item-action bg-transparent"
+                            id="list-messages-list" data-toggle="list" href="#three" role="tab" aria-controls="vertex">
+                            <p class="mr-2 bg-transparent">02.</p>
+                            <p>Vertex Inc.</p>
+                        </a>
+                        <a class="row d-flex flex-row list-group-item list-group-item-action bg-transparent"
+                            id="list-settings-list" data-toggle="list" href="#four" role="tab" aria-controls="bayer">
+                            <p class="mr-2">03.</p>
+                            <p>Bayer Pharmaceuticals</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-8 text-smaller m-0 p-0" id="jobdesc">
+                    <div class="tab-content m-0 p-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="one" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <p>
+                                TATA Consultancy Services (TCS) is globally a leading brand in providing IT
+                                services.Current being
+                                world's <u>Third most valuable<i>(source: The Economic Times)</i></u>
+                                It's value lies in providing the best service to it's clients.
+                                We act as an IT Administrators or the Subect matter experts for our clients.
+                                The clients I've worked for are:
+                            </p>
+                            <ul class="text-monospace">
+                                <li>Eli Lilly & Company</li>
+                                <li class="my-2">Vertex Inc.</li>
+                                <li class="my-2">Bayer Pharmaceuticals</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="list-profile-list">
+                            Eli Lilly & Co. is a pharmaceutical firm and TCS' oldest client. I joined as a subject
+                            matter expert in
+                            the data science team. Tasks I performed were:
+                            <ul id="lilly">
+                                <li class="my-2">Keeping a trak of all the transactions running across the applications
+                                    responsible for
+                                    migrating data from end to end and making sure that the data remains intact.
+                                </li>
+                                <li class="my-2">Implementing the application's newer features proposed by clients.</li>
+                                <li>Taking care of routine tasks, such as password management, certificate renewal,
+                                    Business continuty
+                                    plan or Disaster recovery plan drill.
+                                </li>
+                                <li class="my-2">Task required implementation of fututre releases of application.</li>
+                            </ul>
+                            On the spot delivery, seamless process handling and handsome client relationship skills got
+                            me client
+                            appreciation as well as appreciation from the higher management.
+                        </div>
+                        <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="list-messages-list">
+                            <p>Vertex Inc. was my next project at TCS. Vertex is working in the pharmaceutical sector
+                                and a
+                                relatively newer client for TCS. I was the part of web application design & development
+                                team.
+                                Main task of design team were:
+                            </p>
+                            <ul id="vertex">
+                                <li>Design and development of landing pages for the application. We have designed all
+                                    the required
+                                    pages to show the data of the clinical trials being done by Vertex. </li>
+                                <li class="my-2">
+                                    Landing pages designed were responsible for providing a descriptive analysis(using
+                                    charts & graphs)
+                                    of the data fetched from the database.
+                                </li>
+                                <li>Due to my previous experience, I was given an additional opportunity to end-to-end
+                                    test and validate
+                                    the complete Application.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p>
+                                Bayer Pharmaceuticals is a drug development firm and TCS' one of the biggest clients. I
+                                took the role of
+                                support executive for this project and was responsible for following tasks.
+                            </p>
+                            <ul id="bayer">
+                                <li class="my-2">The database had number of upstream and downstream applications. A lot
+                                    of scheduled jobs were running
+                                    in the system to pull the data from the updatream and store it in a model so that it
+                                    can be fed to the
+                                    downstream application.
+                                </li>
+                                <li>
+                                    Main challange was to keep all the jobs running and maintaining all the data intact
+                                    throughout the migration.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-4 " id="other">
+                <p class="text-center my-4 p-4 h6"><u>Other relevant Experiences</u></p>
+                <div class="container-fluid row">
+                    <div class="col-sm-6" id="drdo">
+                        <h3 class="h4">Electronics Engineering Intern <u>@ DRDO, India</u></h3>
+                        <p>May - July 2015</p>
+                        <p class="m-0 mt-4">it was a 12-week Electronics Engineer Summer Internship at Defence Research
+                            & Development
+                            Organisation, India. Worked as a member of tether cable design team at ' Project Akashdeep',
+                            one of the flagship
+                            projects of DRDO. Design team's tasks included: </p>
+                        <ul>
+                            <li class="my-4">Propose the design of tether cable for satelite.</li>
+                            <li>Create a project report including all the Whys, Hows and Whats of the cable design.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6" id="humber">
+                        <h3 class="h4">Voluenteer Experience <u>@ Humber College</u></h3>
+                        <p>January 2021 - Present</p>
+                        <p class="m-0 mt-4">As a program evaluator at Humber College, main task is to evaluate the
+                            courses' online protal
+                            for their accessibility. Accessibility test includes following tasks:</p>
+                        <ul>
+                            <li class="my-4">Perform a cross-browser testing of the courses' website. Browsers I uses
+                                for testing include
+                                Google Chrome, Firefox, Microsoft Edge and Safari</li>
+                            <li>Create a comprehensive report over the issues being detected and provide a possible
+                                solution.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="container text-light" id="projects">
+        <p class="text-center h6"><u>Projects</u></p>
+        <h2 class="h3 p-4">Some of my works</h2>
+        <div class="media m-2 p-0" id="wesupport">
+            <div class="col-sm-7 projimg" id="wesuppimg">
+            </div>
+            <div class="projright col-sm-6" id="textright">
+                <p class="text-monospace text-smaller float-right"><u>Featured Project</u></p>
+                <h3 class="h4">WeSupport</h3>
+                <p>WeSupport is a ticket management tool. IT Services companies need a robust ticketing system to
+                    maintain a
+                    smooth delivery pipeline. Due to having a prior experience with a ticketing tool, all the major
+                    design aspects
+                    have been incorporated.
+                </p>
+                <div class="row">
+                    <div class="col-sm-2">PHP</div>
+                    <div class="col-sm-2">HTML</div>
+                    <div class="col-sm-2">Bootstrap</div>
+                    <div class="col-sm-2">Netlify</div>
+                    <div class="col-sm-2">SimpleXML</div>
+                </div>
+                <div class="row ml-4 pt-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-50 m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-50 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+        </div>
+        <div class="media m-2 p-0" id="quickread">
+            <div class="projleft col-sm-6" id="left">
+                <p class="text-monospace float-right"><u>Featured Project</u></p>
+                <h3 class="h4">QuickRead</h3>
+                <p class="para">QuickRead is a Natural Language Processing(NLP) based web application.
+                    Its basically a game, with challanges being reading the displayed chucnk of paragraph within the
+                    time limit
+                    as per the timer.
+                </p>
+                <div class="row">
+                    <div class="col-sm-2">Javascript</div>
+                    <div class="col-sm-2">NLP</div>
+                    <div class="col-sm-2">Django</div>
+                    <div class="col-sm-2">Jupyter Notebook</div>
+                    <div class="col-sm-2">Pandas</div>
+                    <div class="col-sm-2">Numpy</div>
+                </div>
+                <div class="row ml-4 pt-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-50 m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-50 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            <div class="col-sm-7 projimg" id="qrimg">
+            </div>
+        </div>
+        <div class="media m-2 p-0" id="takecare">
+            <div class="col-sm-7 projimg" id="tcimg">
+            </div>
+            <div class="projright col-sm-6">
+                <p class="text-monospace float-right"><u>Featured Project</u></p>
+                <h3 class="h4">TakeCare</h3>
+                <p>TakeCare is a web portal that provides you with the information about the good things happening
+                    around the world.
+                    It's a different take on how we see things around us.
+                </p>
+                <div class="row">
+                    <div class="col-sm-4">Youtube API</div>
+                    <div class="col-sm-4">New York Times API</div>
+                    <div class="col-sm-4">Spoonacular API</div>
+                    <div class="col-sm-4 mt-3">PHP</div>
+                </div>
+                <div class="row ml-4 pt-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-50 m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-50 m-0 p-0 rounded-circle"></a>
+                </div>
+            </div>
+        </div>
+        <div class="media mt-4 p-0" id="100percent">
+            <div class="projleft col-sm-6" id="left">
+                <p class="text-monospace float-right"><u>Featured Project</u></p>
+                <h3 class="h4">100 Percent</h3>
+                <p>This website is designed considering the <u>security and accessibility challanges</u> in modern web
+                    development. The website
+                    clearly explains the considerations to make a secure website using build tools.
+                </p>
+                <div class="row">
+                    <div class="col-sm-2">Node.js</div>
+                    <div class="col-sm-2">Vite</div>
+                    <div class="col-sm-2">Netlify</div>
+                    <div class="col-sm-2">Bootstrap</div>
+                    <div class="col-sm-2">HTML</div>
+                    <div class="col-sm-2">JS</div>
+                </div>
+                <div class="row ml-4 pt-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-50 m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-50 m-0 p-0 rounded-circle"></a>
+                </div>
+            </div>
+            <div class="col-sm-7 projimg" id="hpimg">
+            </div>
+        </div>
+    </section>
+    <section class="container text-light otherworks" id="notables">
+        <h2 class="h6 text-center m-4 p-4"><u>Other Notable Works</u></h2>
+        <h2 class="h5 mb-0">Few more things that I've built</h2>
+        <div class="row">
+            <div class="col-sm-4 others">
+            <div class="border border-info m-4 p-3">
+                <h3 class="h4 mt-4">Wind power prediction</h3>
+                <p>Its a <u>Machine Learning</u> project. The challenge was to predict the wind power in KiloWatt at a given wind speed. The raw data was quite
+                    unstructured and pre-processing it was one of the main challanges.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 mr-2 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/jupyte.png" class="w-75 bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4 others">
+            <div class="border border-info m-4 p-3 rounded">
+                <h3 class="h5 mt-4">Computer Vision using Deep Learning</h3>
+                <p>This is a classic Cat vs Dog computer vision problem. The highlight was to minimize the time to train
+                    the model.
+                    Which was done using <u>vectorization</u> instead of haivng explicit for loops multiple times.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 mr-2 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/jupyte.png" class="w-75 bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3 rounded">
+                    <h3 class="h5 mt-4">Sales data analysis using Matplotlib</h3>
+                <p>This is a sales data analysis of a firm which has stores at multiple locations. Higher management
+                    wants to see
+                    how evenry store is doing in order to make decision upon the expansion of the brand.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 mr-2 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/jupyte.png" class="w-75 bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3 rounded">
+                <h3 class="h5 mt-4">COVID-19 portal</h3>
+                <p>This page is using COVID-19 API to fetch the data and generate a report to indicate the number of
+                    cases or the
+                    vaccination data around india.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75    bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3 rounded">
+                <h3 class="h5 mt-4">Prize Pool contest using MYSql and PHP</h3>
+                <p>
+                    This is a nomination league for the various movies awards that happen around the the year.
+                    Participants can
+                    nominate their movies and if applicable will be awarded with prizes. The application is deployed
+                    using <u>Heroku</u>.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75    bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3 rounded">
+                <h3 class="h5 mt-4">Polls Application using Django</h3>
+                <p>
+                    This is a django based web application that allows users to participate in a poll. The application
+                    is a complete
+                    CRUD application with admin having acces to add, delete, update qustions to be displayed for the
+                    poll.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75    bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4 others">
+            <div class="border border-info m-4 p-3 rounded">
+                <h3 class="h5 mt-4">Dieting.Do: PetCare application</h3>
+                <p>
+                    This is a django based web application that allows users to participate in a poll. The application
+                    is a complete
+                    CRUD application with admin having acces to add, delete, update qustions to be displayed for the
+                    poll.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75    bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3">
+                <h3 class="h5 mt-4">Tweet Sentiment Analysis using NLP</h3>
+                <p>
+                    The application uses <u>Twitter API</u> to perform a sentiment analysis over the historic tweets.
+                    The appliaction uses modern NLP and web application development methods to perform the analysis.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 mr-2 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/jupyte.png" class="w-75 bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75 bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4 others">
+                <div class="border border-info m-4 p-3">
+                <h3 class="h5 mt-4">Appointment booking system</h3>
+                <p>The application is a movie ticket booking system. It is using PHP and Bootstrap to provide the
+                    booking
+                    functionality in a robust and organised manner.
+                </p>
+                <div class="row ml-2 mb-4">
+                    <a class="col-sm-2 m-0 p-0" href="https://app.netlify.com/sites/amvitesite/overview"><img
+                            src="/Images/link.png" class="w-75    bg-light rounded-circle m-0 p-0"></a>
+                    <a class="col-sm-2 m-0 p-0" href="https://github.com/Ambaram/WeSupport"><img src="/Images/git.png"
+                            class="w-75 rounded-circle m-0 p-0"></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="container text-center">
+        <div class="btn btn-info bg-transparent p-2 border border-info text-monospace text-info" id="more">See More
+        </div>
+    </div>
+    <footer class="text-light container mt-4" id="contact">
+        <h2 class="h6 text-monospace text-center my-4 p-4"><u>Let's Connect!!</u></h2>
+        <h2 class="text-center text-white-50">Get in Touch</h2>
+        <p class="col-sm-6 mx-auto text-white">I am actively looking for a full-time opportunity / Freelance /
+            Internships. 
+            <p class="text-center"><a href="mailto:ambaramsrivastava@gmail.com"><input type="button" class = "btn border border-info text-monospace text-info" value="Drop a message"></a> </p>
+            <p class="text-white-50 text-center">Let's sit together and see what we can do.</p>
+        <form class="col-sm-6 mx-auto">
+            <p class="text-white-50 text-center">You can provide your requirements here.</p>
+            <div class="m-4">
+                <label for="name" class="col-sm-4">Name : </label>
+                <input type="text" id="name" placeholder="name" class="col-sm-7 bg-transparent p-2 border border-info">
+            </div>
+            <div class="m-4">
+                <label for="email" class="col-sm-4">Email : </label>
+                <input type="email" id="email" placeholder="email@example.com"
+                    class="col-sm-7 bg-transparent p-2 border border-info">
+            </div>
+            <div class="m-4">
+                <label for="service" class="col-sm-4">Project Type: </label>
+                <select id="service" class="col-sm-7 bg-transparent text-secondary p-2 border border-info">
+                    <option value="1">Website Design</option>
+                    <option value="2">Web Application Development</option>
+                    <option value="3">UI Design</option>
+                    <option value="4">Database Design & Administration</option>
+                    <option value="5">Predective Analyiss</option>
+                    <option value="6">Computer Vision</option>
+                    <option value="7">Text Analysis</option>
+                    <option value="8">Validation and Testing</option>
+                    <option value="9">Application Documentation</option>
+                    <option value="10">Website Accessibility and Security Analysis</option>
+                    <option value="11">Other</option>
+                </select>
+            </div>
+        </form>
+        <div>
+            <p class="text-monospace text-smaller text-center"><u>Designed & Built by Ambaram</u></p>
+        </div>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="/JS/portfolio.js"></script>
+
+</html>
