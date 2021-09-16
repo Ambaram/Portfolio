@@ -88,7 +88,7 @@ u{
     opacity: 1;
     background-position: center;
     background-size: cover;
-    background-image: url("/Images/Story/hero-background.gif");
+    background-image: url("/Portfolio/Images/Story/hero-background.gif");
     margin: auto;
     margin-top: 7em;
 }
@@ -97,7 +97,7 @@ u{
     position: absolute;
     width: 600px;
     height: 200px;
-    background-image: url("/Images/Story/town.jpeg");
+    background-image: url("/Portfolio/Images/Story/town.jpeg");
     background-position: center;
     animation: backgrounds 20s linear;
     animation-play-state: running;
@@ -110,7 +110,7 @@ u{
     position: absolute;
     width: 200px;
     height: 140px;
-    background-image: url("/Images/Story/boy.gif");
+    background-image: url("/Portfolio/Images/Story/boy.gif");
     background-position: center;
     animation: journey 10s linear;
     animation-play-state: running;
@@ -134,31 +134,31 @@ u{
 
 @keyframes backgrounds {
     0%{
-        background-image: url("/Images/Story/town.jpeg");
+        background-image: url("/Portfolio/Images/Story/town.jpeg");
     }
 
     30%{
-        background-image: url("/Images/Story/city.gif");
+        background-image: url("/Portfolio/Images/Story/city.gif");
     }
 
     70%{
-        background-image: url("/Images/Story/manback.gif");
+        background-image: url("/Portfolio/Images/Story/manback.gif");
     }
 }
 
 @keyframes journey {
     0%{
-        background-image: url("/Images/Story/boy.gif");
+        background-image: url("/Portfolio/Images/Story/boy.gif");
     }
 
     30%{
         height: 150px;
-        background-image: url("/Images/Story/teen.gif");
+        background-image: url("/Portfolio/Images/Story/teen.gif");
         margin-top: 1em;
     }
     70%{
         height: 200px;
-        background-image:url("/Images/Story/man.gif");
+        background-image:url("/Portfolio/Images/Story/man.gif");
         margin-top: 2emm;
     }
 }
@@ -191,7 +191,7 @@ li::before{
     left: -2.5em;
     content: '';
     display: inline-block;
-    background-image: url("/Images/list-style-image.png");
+    background-image: url("/Portfolio/Images/list-style-image.png");
     width: 10px;
     height: 13px;
     text-align: left;
@@ -247,23 +247,23 @@ li::before{
 }
 
 #wesuppimg{
-    background-image: linear-gradient(#123455,#123455), url("/Images/projects/wesupport.png");
+    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/wesupport.png");
 }
 
 #hpimg{
-    background-image: linear-gradient(#123455,#123455), url("/Images/projects/100percent.png");
+    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/100percent.png");
     margin-left: -5em;
     z-index: -1 ;
 }
 #qrimg{
-    background-image: linear-gradient(#123455,#123455), url("/Images/projects/quickread.png");
+    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/quickread.png");
     margin-left: -5em;
     background-size: contain;
     z-index: -1;
 }
 
 #tcimg{
-    background-image: linear-gradient(#123455,#123455), url("/Images/projects/takecare.png");
+    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/takecare.png");
     background-size: contain;
     height: 300px;
 }
