@@ -6,8 +6,6 @@ function execute(){
     btn.addEventListener("click",visible);
 }
 function visible(){
-    document.getElementById("notables").classList.toggle("otherworks");
-    document.getElementById("notables").classList.toggle("visible");
     const btn = document.getElementById("more");
     if(btn.innerHTML == "See More"){
         btn.innerHTML = "See Less";
@@ -15,6 +13,8 @@ function visible(){
     else{
         btn.innerHTML = "See More";
     }
+    document.getElementById("notables").classList.toggle("otherworks");
+    document.getElementById("notables").classList.toggle("visible");
 }
 
 function switchtheme(){
