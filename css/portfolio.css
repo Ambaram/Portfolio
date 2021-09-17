@@ -145,7 +145,7 @@ u{
         background-image: url("/Images/Story/city.gif");
         opacity: 1;
     }
-    64%{
+    69%{
         background-image: url("/Images/Story/city.gif");
         opacity: 1;
     }
@@ -219,7 +219,7 @@ u{
 /*Experience CSS start */
 #experience{
     margin: auto;
-    margin-top: 25em;
+    margin-top: 30em;
     color: white;
     width: 80%;
 }
