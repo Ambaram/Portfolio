@@ -63,6 +63,7 @@ h1{
 
 #subhead{
     opacity: .75;
+    font-size: 2em;
 }
 
 u{
@@ -88,43 +89,39 @@ u{
     opacity: 1;
     background-position: center;
     background-size: cover;
-    background-image: url("/Portfolio/Images/Story/hero-background.gif");
+    background-color: white;
+    filter: grayscale(100%);
+    background-image: url("/Images/Story/hero-background.gif");
     margin: auto;
-    margin-top: 7em;
+    margin-top: 12em;
+    transform: rotate3d("50deg");
 }
 
 #mains{
     position: absolute;
     width: 600px;
-    height: 200px;
-    background-image: url("/Portfolio/Images/Story/town.jpeg");
+    height: 240px;
+    background-image: url("/Images/Story/town.gif");
     background-position: center;
-    animation: backgrounds 20s linear;
+    animation: backgrounds 60s linear;
     animation-play-state: running;
+    transform: rotate("70deg");
+    filter: grayscale(100%);
 }
 
 #stages{
     margin-left: 2em;
-    left: 11em;
-    top: 6em;
+    left: 12em;
+    top: 10em;
     position: absolute;
     width: 200px;
-    height: 140px;
-    background-image: url("/Portfolio/Images/Story/boy.gif");
+    height: 120px;
+    background-image: url("/Images/Story/boy.gif");
     background-position: center;
-    animation: journey 10s linear;
+    animation: journey 60s linear;
     animation-play-state: running;
 }
 
-
-#play{
-    top: 50%;
-    left: 50%;
-    margin-top: 10em;
-    position: absolute;
-    font-size: 1em;
-    opacity: 1;
-}
 
 #backgrounds{
     position:  relative;
@@ -134,32 +131,86 @@ u{
 
 @keyframes backgrounds {
     0%{
-        background-image: url("/Portfolio/Images/Story/town.jpeg");
+        background-image: url("/Images/Story/town.gif");
     }
-
-    30%{
-        background-image: url("/Portfolio/Images/Story/city.gif");
+    15%{
+        background-image: url("/Images/Story/town.gif");
+        opacity: 1; 
     }
-
+    17%{
+        background-image: url("/Images/Story/city.gif");
+        opacity: 1;
+    }
+    19%{
+        background-image: url("/Images/Story/city.gif");
+        opacity: 1;
+    }
+    64%{
+        background-image: url("/Images/Story/city.gif");
+        opacity: 1;
+    }
     70%{
-        background-image: url("/Portfolio/Images/Story/manback.gif");
+        background-image: url("/Images/Story/manback.gif");
+        opacity: 1;
+    }
+    99%{
+        background-image: url("/Images/Story/manback.gif");
+        opacity: 1;
     }
 }
 
 @keyframes journey {
     0%{
-        background-image: url("/Portfolio/Images/Story/boy.gif");
+        background-image: url("/Images/Story/boy.gif");
     }
 
-    30%{
-        height: 150px;
-        background-image: url("/Portfolio/Images/Story/teen.gif");
-        margin-top: 1em;
+    15%{
+        height: 120px;
+        background-image: url("/Images/Story/boy.gif");
+        opacity: 0;
+    }
+    17%{
+        height: 100px;
+        background-image: url("/Images/Story/teen.gif");
+        margin-top: 2em;
+        opacity: 0;
+        left: 12.5em;
+    }
+    19%{
+        height: 100px;
+        background-image: url("/Images/Story/teen.gif");
+        margin-top: 2em;
+        opacity: 1;
+        left: 12.5em;
+    }
+    64%{
+        height: 100px;
+        background-image: url("/Images/Story/teen.gif");
+        opacity: 1;
+        margin-top: 3.5em;
+        left: 12.5em;
+    }
+    69%{
+        background-image: url("/Images/Story/teen.gif");
+        opacity: 0;
+        margin-top: 4em;
+
     }
     70%{
+        width: 100px;
         height: 200px;
-        background-image:url("/Portfolio/Images/Story/man.gif");
-        margin-top: 2emm;
+        background-image:url("/Images/Story/man.gif");
+        margin-top: 4em;
+        opacity: 1;
+        left: 13em;
+    }
+    99%{
+        width: 100px;
+        height: 200px;
+        background-image:url("/Images/Story/man.gif");
+        margin-top: 4em;
+        opacity: 1;
+        left: 13em;
     }
 }
 
@@ -168,7 +219,7 @@ u{
 /*Experience CSS start */
 #experience{
     margin: auto;
-    margin-top: 20em;
+    margin-top: 25em;
     color: white;
     width: 80%;
 }
@@ -191,7 +242,7 @@ li::before{
     left: -2.5em;
     content: '';
     display: inline-block;
-    background-image: url("/Portfolio/Images/list-style-image.png");
+    background-image: url("/Images/list-style-image.png");
     width: 10px;
     height: 13px;
     text-align: left;
@@ -234,6 +285,7 @@ li::before{
 /* Projects CSS start */
 
 #projects{
+    margin-top: 7em;
     color: lightslategray;
 }
 
@@ -247,23 +299,23 @@ li::before{
 }
 
 #wesuppimg{
-    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/wesupport.png");
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/wesupport.png");
 }
 
 #hpimg{
-    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/100percent.png");
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/100percent.png");
     margin-left: -5em;
     z-index: -1 ;
 }
 #qrimg{
-    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/quickread.png");
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/quickread.png");
     margin-left: -5em;
     background-size: contain;
     z-index: -1;
 }
 
 #tcimg{
-    background-image: linear-gradient(#123455,#123455), url("/Portfolio/Images/projects/takecare.png");
+    background-image: linear-gradient(#123455,#123455), url("/Images/projects/takecare.png");
     background-size: contain;
     height: 300px;
 }
@@ -292,6 +344,14 @@ li::before{
 
 /* Other projects CSS Start */
 
+.carousel-control-prev , .carousel-control-next{
+    width: 1.8vw;
+    background-color: #767676;
+    opacity: .5;
+    margin: 2em 2em;
+}
+
+
 .otherworks{
     font-size: .75em;
     height: 500px;
@@ -301,6 +361,10 @@ li::before{
 .visible{
     font-size: .75em;
     overflow:visible;
+}
+
+.project{
+    height: 300px;
 }
 
 .others{
