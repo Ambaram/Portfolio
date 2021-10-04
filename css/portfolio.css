@@ -410,6 +410,12 @@ footer {
     display: none;
   }
 
+  #wesupport,
+  #quickread,
+  #takecare,
+  #100percent {
+    margin: auto;
+  }
   #wesuppimg,
   #qrimg,
   #tcimg,
