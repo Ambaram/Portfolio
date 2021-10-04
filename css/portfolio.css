@@ -407,8 +407,8 @@ footer {
 /* Theme change CSS end */
 @media screen and (max-width: 760px) {
   #intro {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   #social a {
     display: none;
