@@ -423,4 +423,10 @@ footer {
   #rightside {
     display: none;
   }
+
+  #link,
+  #git {
+    display: flex;
+    width: 50px;
+  }
 }
