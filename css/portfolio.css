@@ -420,4 +420,7 @@ footer {
   #techs {
     display: flex;
   }
+  #rightside {
+    display: none;
+  }
 }
