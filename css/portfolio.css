@@ -406,6 +406,10 @@ footer {
 
 /* Theme change CSS end */
 @media screen and (max-width: 760px) {
+  #main {
+    margin: 0;
+    padding: 0;
+  }
   #social a {
     display: none;
   }
@@ -416,6 +420,7 @@ footer {
   #100percent {
     margin: auto;
   }
+
   #wesuppimg,
   #qrimg,
   #tcimg,
