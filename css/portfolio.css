@@ -406,20 +406,81 @@ footer {
 
 /* Theme change CSS end */
 @media screen and (max-width: 760px) {
+  .body {
+    margin: 0;
+    padding: 0.5em;
+  }
+  #rightside {
+    display: none;
+  }
+  #navbar {
+    margin-top: 0 !important;
+    margin-bottom: 1em !important;
+  }
+  #logo {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
   #intro {
     padding: 0 !important;
+    margin: 0 !important;
+  }
+  #heading {
+    margin: 0 !important;
+  }
+  #subhead {
+    margin: 0 !important;
+  }
+  #resume {
     margin: 0 !important;
   }
   #social a {
     display: none;
   }
 
-  #wesupport,
-  #quickread,
-  #takecare,
-  #100percent {
-    margin: auto;
+  #profilepic {
+    position: absolute;
+    margin-top: -5em !important;
+    padding: 0 !important;
+    padding-left: 17.5em !important;
   }
+  #pic {
+    width: 300px;
+  }
+
+  /* Story */
+  #backgrounds {
+    margin: 1em !important;
+    padding-left: 0 !important;
+    left: -3em !important;
+  }
+  #hero-background,
+  #mains {
+    width: 80vw !important;
+  }
+  #story {
+    margin-top: 3em !important;
+  }
+
+  #stages {
+    left: 6em !important;
+  }
+
+  /* Story CSS End */
+  /* experience css start */
+  #humber {
+    margin-top: 2em !important;
+    margin-bottom: 0 !important;
+  }
+  #experience {
+    margin-left: 0 !important ;
+    margin-right: 0 !important ;
+    width: 100vw !important;
+  }
+
+  /* experience css end */
+
+  /*projects css start */
 
   #wesuppimg,
   #qrimg,
@@ -427,17 +488,59 @@ footer {
   #hpimg {
     display: none;
   }
-
-  #techs {
-    display: flex;
-  }
-  #rightside {
-    display: none;
+  #left,
+  #right {
+    margin: auto !important;
   }
 
+  .projright,
+  .projleft {
+    width: 80vw !important;
+    margin: auto !important;
+  }
   #link,
   #git {
-    display: flex;
-    width: 30px;
+    width: 10vw !important;
+    margin-left: 0 !important;
+  }
+
+  #works {
+    text-align: center;
+  }
+  #notables {
+    text-align: center;
+  }
+
+  #ref {
+    width: 50px !important;
+    text-align: left;
+  }
+  .project {
+    text-align: left;
+    margin-bottom: -0.5em 0 !important;
+  }
+  .h5 {
+    text-align: center;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 100vh !important;
+    margin: auto !important;
+  }
+
+  .others {
+    height: 80vw !important;
+    overflow: scroll !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-item {
+    overflow: scroll;
+    height: 100vw !important;
+  }
+
+  label {
+    text-align: center !important;
+    width: 40vw !important;
   }
 }
