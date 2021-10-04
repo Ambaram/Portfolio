@@ -407,7 +407,7 @@ footer {
 /* Theme change CSS end */
 @media screen and (max-width: 760px) {
   #social a {
-    width: 70px;
+    width: 50px;
   }
 
   #wesuppimg,
