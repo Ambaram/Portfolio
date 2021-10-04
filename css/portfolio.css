@@ -416,4 +416,8 @@ footer {
   #hpimg {
     display: none;
   }
+
+  #techs {
+    display: flex;
+  }
 }
