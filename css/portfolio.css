@@ -407,8 +407,8 @@ footer {
 /* Theme change CSS end */
 @media screen and (max-width: 760px) {
   .body {
-    margin: 0;
-    padding: 0.5em;
+    margin: 0 !important;
+    padding: 0em !important;
   }
   #rightside {
     display: none;
@@ -422,37 +422,62 @@ footer {
     padding: 0 !important;
   }
   #intro {
+    padding: 0em !important;
+    margin: 0 !important;
+    width: 100vw !important;
+  }
+  #about {
+    flex: column;
     padding: 0 !important;
     margin: 0 !important;
+    margin-top: 10em !important;
   }
+
   #heading {
-    margin: 0 !important;
+    margin: 0em !important;
   }
   #subhead {
-    margin: 0 !important;
+    margin: 0em !important;
   }
   #resume {
     margin: 0 !important;
   }
+
+  #main {
+    margin: 0.5em !important;
+  }
+
+  .h6 {
+    text-align: center;
+  }
+  #name {
+    text-align: center;
+  }
+  #bio {
+    padding: 0 !important;
+  }
+
   #social a {
     display: none;
   }
 
   #profilepic {
     position: absolute;
-    margin-top: -5em !important;
     padding: 0 !important;
-    padding-left: 17.5em !important;
   }
   #pic {
-    width: 300px;
+    position: absolute;
+    width: 60vw;
+    justify-content: center;
+    top: -16em !important;
+    left: 20%;
   }
 
   /* Story */
   #backgrounds {
     margin: 1em !important;
     padding-left: 0 !important;
-    left: -3em !important;
+    left: 2em !important;
   }
   #hero-background,
   #mains {
@@ -460,10 +485,13 @@ footer {
   }
   #story {
     margin-top: 3em !important;
+    width: 100vw !important;
   }
-
+  #minute {
+    text-align: center;
+  }
   #stages {
-    left: 6em !important;
+    left: 4em !important;
   }
 
   /* Story CSS End */
