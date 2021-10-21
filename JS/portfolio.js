@@ -11,11 +11,11 @@ function switchtheme(){
 function send()
 {
     emailjs.send("service_gg3vqvw","template_lzvimyq",{
-        name: document.querySelector("#name"),
-        tech: document.querySelector("#tech"),
-        email: document.querySelector("#email").value
+        name: document.querySelector("#name").value,
+        email: document.querySelector("#email").value,
+        tech: document.querySelector("#tech").value,
         }).then(response=>{
-            console.log("Success", response.status);
+            console.log("Success", response);
         },(error)=>{
             console.log(error);
         }) ;
