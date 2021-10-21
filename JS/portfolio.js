@@ -11,8 +11,8 @@ function switchtheme(){
 function send()
 {
     emailjs.send("service_gg3vqvw","template_lzvimyq",{
-        name: document.querySelector("#name").nodeValue,
-        tech: document.querySelector("#service").nodeValue,
+        name: document.querySelector("#name"),
+        tech: document.querySelector("#service"),
         email: document.querySelector("#email").value
         }).then(response=>{
             console.log("Success", response.status);
