@@ -567,16 +567,16 @@
                 connect.</p>
             <div class="row">
                 <div class="col-sm-12 d-flex flex-row justify-content-center">
-                    <label for="name" class="col-sm-2">Name : </label>
-                    <input type="text" id="name" class="col-sm-4 bg-transparent p-2 border border-info">
+                    <label for="name" class="col-sm-2" required>Name : </label>
+                    <input type="text" id="name" name="name" class="col-sm-4 bg-transparent p-2 border border-info">
                 </div>
                 <div class="col-sm-12 d-flex flex-row justify-content-center my-3">
-                    <label for="email" class="col-sm-2">Email : </label>
-                    <input type="email" id="email" class="col-sm-4 bg-transparent p-2 border border-info">
+                    <label for="email" class="col-sm-2" required>Email : </label>
+                    <input type="email" id="email" name="email" class="col-sm-4 bg-transparent p-2 border border-info">
                 </div>
                 <div class="col-sm-12 d-felx flex-row justify-content-center mb-3">
                     <label for="service" class="col-sm-2 text-left">Project Type: </label>
-                    <select id="service" class="col-sm-4 bg-transparent text-secondary p-2 border border-info">
+                    <select id="service" name="tech" class="col-sm-4 bg-transparent text-secondary p-2 border border-info" required>
                         <option value="1">Website Design</option>
                         <option value="2">Web Application Development</option>
                         <option value="3">UI Design</option>
@@ -610,6 +610,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_iKY8Dg4OAUluQk9OpLahA");
+   })();
+</script>
 <script src="../JS/portfolio.js"></script>
 
 </html>
