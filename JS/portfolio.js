@@ -12,7 +12,7 @@ function send()
 {
     emailjs.send("service_gg3vqvw","template_lzvimyq",{
         name: document.querySelector("#name").value,
-        tech: document.querySelector("#service").value,
+        tech: document.querySelector("#service").innerHTML,
         email: document.querySelector("#email").value
         }).then(response=>{
             console.log("Success", response.status);
