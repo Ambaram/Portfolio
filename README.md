@@ -15,7 +15,7 @@ Personal portfolio: AI Engineer & Lead Integration Architect.
    git add .
    git commit -m "Initial commit: portfolio"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git remote add origin https://github.com/ambaram/https://github.com/Ambaram/Portfolio.git
    git push -u origin main
    ```
 
@@ -25,5 +25,5 @@ Personal portfolio: AI Engineer & Lead Integration Architect.
    - **Branch:** `main` → `/ (root)` → Save
 
 4. Your site will be at:
-   - **Project site:** `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-   - **User site:** `https://YOUR_USERNAME.github.io/` (if repo is `YOUR_USERNAME.github.io`)
+   - **Project site:** `https://ambaram.github.io/https://github.com/Ambaram/Portfolio.git/`
+   - **User site:** `https://ambaram.github.io/` (if repo is `https://github.com/Ambaram/Portfolio.git.github.io`)
